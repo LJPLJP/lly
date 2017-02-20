@@ -1,0 +1,26 @@
+.mine{
+    width: 100%;
+//  background: -webkit-linear-gradient(#ebfaf5, white);
+    .mine_top{
+        width: 80%;
+        margin-left: 10%;
+        overflow: hidden;
+        .left{   
+            float: left;
+            padding-top: 15%;
+            padding-left: 26%;
+            text-align: center;
+        }
+        .right{
+            float: right;
+            margin-top: 3%;
+        }
+    }
+    .mine_name{
+        width: 80%;
+        margin-left: 10%;
+        span:nth-child(1){
+            color:limegreen;
+        }
+    }
+}
